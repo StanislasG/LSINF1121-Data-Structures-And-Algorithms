@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98519fdc-ff02-4a57-af3a-8557c55b839c" name="Default Changelist" comment="" />
+    <list default="true" id="98519fdc-ff02-4a57-af3a-8557c55b839c" name="Default Changelist" comment="new global warming in part 2">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LSINF1121-2016_Part2Median/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PART 4/LSINF1121_PART4_RabinKarp/LSINF1121_PART4_RabinKarp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2019 Interro/LSINF1121-2016_drones/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019 Interro/LSINF1121-2016_drones/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXAM0119LinearProbing/.idea/EXAM0119LinearProbing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXAM0119LinearProbing/EXAM0119LinearProbing/.idea/EXAM0119LinearProbing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXAM0119LinearProbing/EXAM0119LinearProbing/public/LSINF1121_EXAM0119_LinearProbing/LSINF1121_EXAM0119_LinearProbing/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXAM0119LinearProbing/EXAM0119LinearProbing/public/LSINF1121_EXAM0119_LinearProbing/LSINF1121_EXAM0119_LinearProbing/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXAM0119LinearProbing/EXAM0119LinearProbing/public/LSINF1121_EXAM0119_LinearProbing/LSINF1121_EXAM0119_LinearProbing/.idea/dictionaries/user.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXAM0119LinearProbing/EXAM0119LinearProbing/public/LSINF1121_EXAM0119_LinearProbing/LSINF1121_EXAM0119_LinearProbing/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXAM0119LinearProbing/EXAM0119LinearProbing/public/LSINF1121_EXAM0119_LinearProbing/LSINF1121_EXAM0119_LinearProbing/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXAM0119LinearProbing/EXAM0119LinearProbing/public/LSINF1121_EXAM0119_LinearProbing/LSINF1121_EXAM0119_LinearProbing/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXAM0119LinearProbing/EXAM0119LinearProbing/public/LSINF1121_EXAM0119_LinearProbing/LSINF1121_EXAM0119_LinearProbing/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXAM0119LinearProbing/EXAM0119LinearProbing/public/LSINF1121_EXAM0119_LinearProbing/LSINF1121_EXAM0119_LinearProbing/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EXAM0119LinearProbing/EXAM0119LinearProbing/public/LSINF1121_EXAM0119_LinearProbing/LSINF1121_EXAM0119_LinearProbing/LSINF1121_EXAM0119_LinearProbing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GlobalWarmingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GlobalWarmingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GlobalWarmingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GlobalWarmingImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LSINF1121-2016_Part2Median/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LSINF1121-2016_Part2Median/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PART 4/LSINF1121-2016_Part4IncrementalHash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PART 4/LSINF1121-2016_Part4IncrementalHash/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PART 4/LSINF1121_PART4_RabinKarp/LSINF1121_PART4_RabinKarp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PART 4/LSINF1121_PART4_RabinKarp/LSINF1121_PART4_RabinKarp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PART 4/LSINF1121_PART4_RabinKarp/LSINF1121_PART4_RabinKarp/src/main/java/RabinKarp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PART 4/LSINF1121_PART4_RabinKarp/LSINF1121_PART4_RabinKarp/src/main/java/RabinKarp.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,8 +34,13 @@
   <component name="FavoritesManager">
     <favorites_list name="LSINF1121-2016_Part2GlobalWarming" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1TKG0c3InIfPtXR8kDvQiUrqfIA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -66,6 +94,21 @@
       <updated>1573201151138</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new global warming in part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="new global warming in part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

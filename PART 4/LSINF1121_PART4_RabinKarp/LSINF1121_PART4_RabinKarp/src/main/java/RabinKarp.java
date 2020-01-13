@@ -42,10 +42,10 @@ public class RabinKarp
 
 
 
-            //System.out.println("M[j] " + M[j] + ", pat[j] " + pat[j]+", txt " + txt.substring(i, i + M[j]));
-            //System.out.println("pat[j] " + pat[j] + ", j " + j);
-            if (pat[index].equals(txt.substring(i, i + M[index])))
-                return true;
+        //System.out.println("M[j] " + M[j] + ", pat[j] " + pat[j]+", txt " + txt.substring(i, i + M[j]));
+        //System.out.println("pat[j] " + pat[j] + ", j " + j);
+        if (pat[index].equals(txt.substring(i, i + M[index])))
+            return true;
 
         return  false;// For Las Vegas, check pat vs txt(i..i-M+1).
     }
@@ -79,8 +79,8 @@ public class RabinKarp
                 if (check(0,txt, j)){
                     return 0; // match
                 }
-                 // Match at beginning.
-                }
+                // Match at beginning.
+            }
             //System.out.println("patHash["+j+"] = "+ patHash[j]);
         }
         //waiting
