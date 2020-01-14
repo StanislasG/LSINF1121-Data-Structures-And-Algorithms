@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be98806f-cb64-499a-a153-78b0646b41e9" name="Default Changelist" comment="" />
+    <list default="true" id="be98806f-cb64-499a-a153-78b0646b41e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Heap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LSINF1121_PART5_GlobalWarming/LSINF1121_PART5_GlobalWarming/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LSINF1121_PART5_GlobalWarming/LSINF1121_PART5_GlobalWarming/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +51,9 @@
       <dir>C:\Users\user\Documents\UCL\Master\Q9\Algo\grading\LSINF1121_PART3_BinarySearchTree</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -77,11 +87,13 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543417876118" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LSINF1121-2016_Part5MinMaxHeap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -152,10 +164,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HuffmanTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LSINF1121_PART5_Huffman" />
+    <configuration name="TestHeapEasy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LSINF1121_PART5_BinaryHeapPush" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HuffmanTest2" />
+      <option name="MAIN_CLASS_NAME" value="TestHeapEasy" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -246,18 +258,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.HuffmanTest" />
-      <item itemvalue="JUnit.HuffmanTest2" />
       <item itemvalue="JUnit.All in LSINF1121_PART5_BinaryHeapPush" />
       <item itemvalue="JUnit.All in LSINF1121_PART5_BinaryHeapPush (1)" />
       <item itemvalue="JUnit.TestHeapFirst" />
+      <item itemvalue="JUnit.TestHeapEasy" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestHeapFirst" />
+        <item itemvalue="JUnit.TestHeapEasy" />
         <item itemvalue="JUnit.All in LSINF1121_PART5_BinaryHeapPush (1)" />
         <item itemvalue="JUnit.All in LSINF1121_PART5_BinaryHeapPush" />
         <item itemvalue="Application.HuffmanTest" />
-        <item itemvalue="JUnit.HuffmanTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -304,5 +316,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

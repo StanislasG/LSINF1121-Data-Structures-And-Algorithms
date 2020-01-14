@@ -34,9 +34,6 @@ public class Heap {
      * @param val value to add
      */
     public void push(int val) {
-
-        getContent();
-        System.out.println(this.getSize() + " " + content.length);
         if(this.getSize()>=content.length-1) {
             increaseSize();
         }
@@ -56,9 +53,7 @@ public class Heap {
     }
 
     private boolean greater(int i, int j) {
-        if(content[i]>=content[j])
-            return true;
-        return false;
+        return content[i]>=content[j];
     }
 
     private void exch(int i, int j) {
@@ -72,11 +67,7 @@ public class Heap {
     /**
      * Returns the content of the inner array
      */
-    public int[] getContent() {
-        return content;
-    }
+    public int[] getContent() {return content;}
 
-    public int getSize() {
-        return size;
-    }
+    public int getSize() {return size;}
 }
