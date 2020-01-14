@@ -42,40 +42,71 @@ public class LinearProbingHashST<Key, Value> {
     }
 
     /**
-            * resizes the hash table to the given capacity by re-hashing all of the keys
-            */
+     * resizes the hash table to the given capacity by re-hashing all of the keys
+     */
     private void resize(int capacity) {
-        //TODO STUDENT
+        LinearProbingHashST<Key, Value> lp = new LinearProbingHashST<Key, Value>(capacity);
+        for(int i = 0; i < m; i++)
+        {
+            if(keys[i] != null)
+                lp.put(keys[i], vals[i]);
+        }
+
+        n = lp.n;
+        m = lp.m;
+        keys = lp.keys;
+        vals = lp.vals;
     }
 
     /**
-             * Inserts the specified key-value pair into the symbol table, overwriting the old
-             * value with the new value if the symbol table already contains the specified key.
-             * The load factor should never exceed 50% so make sure to resize correctly
-             *
-             * @param  key the key
-             * @param  val the value
-             * @throws IllegalArgumentException if {@code key} is {@code null}
-             */
+     * Inserts the specified key-value pair into the symbol table, overwriting the old
+     * value with the new value if the symbol table already contains the specified key.
+     * The load factor should never exceed 50% so make sure to resize correctly
+     *
+     * @param  key the key
+     * @param  val the value
+     * @throws IllegalArgumentException if {@code key} is {@code null}
+     */
     public void put(Key key, Value val) {
-        //TODO STUDENT
+        if(key == null)
+                throw new IllegalArgumentException();
+
+        if(n >= m/2)
+            resize(2*m);
+
+        int i;
+        for(i = hash(key); keys[i] != null; i = (i+1) % m)
+            if(keys[i].equals(key))
+            {
+                vals[i] = val;
+                return;
+            }
+
+        keys[i] = key;
+        vals[i] = val;
+        n++;
     }
 
     /**
-             * Returns the value associated with the specified key.
-             * @param key the key
-             * @return the value associated with {@code key};
-             *         {@code null} if no such value
-             * @throws IllegalArgumentException if {@code key} is {@code null}
-             */
+     * Returns the value associated with the specified key.
+     * @param key the key
+     * @return the value associated with {@code key};
+     *         {@code null} if no such value
+     * @throws IllegalArgumentException if {@code key} is {@code null}
+     */
     public Value get(Key key) {
-        //TODO STUDENT
+        if(key == null)
+            throw new IllegalArgumentException();
+
+        for(int i = hash(key); keys[i] != null; i = (i+1) % m)
+            if(keys[i].equals(key))
+                return vals[i];
         return null;
     }
 
     /**
-            * Returns all keys in this symbol table as an array
-            */
+     * Returns all keys in this symbol table as an array
+     */
     public Object[] keys() {
         Object[] exportKeys = new Object[n];
         int j = 0;
